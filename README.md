@@ -1,11 +1,11 @@
-About r-productplots
-====================
+About r-productplots-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-productplots-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/hadley/productplots
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-productplots-feedstock/blob/main/LICENSE.txt)
 
 Summary: Framework for visualising tables of counts, proportions and probabilities. The framework is called product plots, alluding to the computation of area as a product of height and width, and the statistical concept of generating a joint distribution from the product of conditional and marginal distributions. The framework, with extensions, is sufficient to encompass over 20 visualisations previously described in fields of statistical graphics and 'infovis', including bar charts, mosaic plots, 'treemaps', equal area plots and fluctuation diagrams.
 
