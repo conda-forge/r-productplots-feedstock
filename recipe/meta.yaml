@@ -1,4 +1,4 @@
-{% set version = '0.1.1' %}
+{% set version = "0.1.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/productplots_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/productplots/productplots_{{ version }}.tar.gz
-  sha256: fd0d778924a3afdc9c7c6594f8ef143ca93dcb7e4bf53d3e984e3f8e4133fac5
+  sha256: 537693c4bb5d0cc4ef9bd209c5a2b60fb6534358dd663e8110b5154ad8f0b6dc
 
 build:
-  number: 4
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -39,13 +39,8 @@ test:
 about:
   home: https://github.com/hadley/productplots
   license: GPL-2.0-only
-  summary: Framework for visualising tables of counts, proportions and probabilities. The framework
-    is called product plots, alluding to the computation of area as a product of height
-    and width, and the statistical concept of generating a joint distribution from the
-    product of conditional and marginal distributions. The framework, with extensions,
-    is sufficient to encompass over 20 visualisations previously described in fields
-    of statistical graphics and 'infovis', including bar charts, mosaic plots, 'treemaps',
-    equal area plots and fluctuation diagrams.
+  summary: Framework for visualising tables of counts, proportions and probabilities. The framework is called product plots, alluding to the computation of area as a product of height and width, and the statistical concept of generating a joint distribution from the product of conditional and marginal distributions. The
+    framework, with extensions, is sufficient to encompass over 20 visualisations previously described in fields of statistical graphics and 'infovis', including bar charts, mosaic plots, 'treemaps', equal area plots and fluctuation diagrams.
   license_family: GPL2
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
